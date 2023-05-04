@@ -5,51 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rust</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
-        <img src="./img/rusticono.svg" alt="">
-        <nav>
-            <ul>
-              <li><a href="#inicio">Inicio</a></li>
-              <li><a href="#guias">Guías</a></li>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#">Comprar</a></li>
-            </ul>
+      <div class="container">
+        <div class="container-icono">
+          <img src="./img/rusticono.svg" alt="">
+        </div>
+        <div class="container-nav">
+          <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#guias">Guías</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#comprar">Comprar</a>
           </nav>
+        </div>
+      </div>
     </header>
-
+    <div>
+      <video src="./videos/rustvideo.mp4" autoplay muted loop></video>
+    </div>
+    <div class="imagen-logo">
+      <img src="./img/rust-logo-grande.svg" alt="">
+    </div>
     <main>
       <div id="inicio">
-        <img src="./img/rust-logo-grande.svg" alt="">
-        <h1>Qué es RUST?</h1>
-        <p>Rust es un juego de supervivencia y construcción de mundo abierto desarrollado por Facepunch Studios. En Rust, los jugadores comienzan en un mundo hostil y peligroso con nada más que una piedra y una antorcha, y deben usar su ingenio y habilidades para sobrevivir y prosperar en este entorno implacable.</p>
-        <p>Los jugadores pueden recolectar recursos como madera, piedra y metal para construir refugios, armas y herramientas. También pueden cultivar alimentos y cazar animales para sobrevivir. Sin embargo, otros jugadores también están luchando por sobrevivir y pueden ser aliados o enemigos potenciales en este mundo sin ley.</p>
-        <p>El juego también cuenta con elementos de crafting y progresión, lo que permite a los jugadores crear objetos más avanzados a medida que avanzan. Además, Rust tiene una mecánica de muerte permanente, lo que significa que si un jugador muere, pierde todos sus objetos y tiene que comenzar de nuevo desde cero.</p>
-        <p>Rust es un juego desafiante y emocionante que combina elementos de supervivencia, construcción y PvP (jugador contra jugador) en un mundo abierto y hostil. Si estás buscando un juego en el que puedas poner a prueba tu ingenio y habilidades de supervivencia, Rust es una excelente opción.</p>
+        <div class="container-inicio">
+          <h1>Qué es RUST?</h1>
+          <p>Rust es un juego de supervivencia y construcción de mundo abierto desarrollado por Facepunch Studios. <br> En Rust, los jugadores comienzan en un mundo hostil y peligroso con nada más que una piedra y una antorcha, y deben usar su ingenio y habilidades para sobrevivir y prosperar en este entorno implacable.</p>
+          <p>Los jugadores pueden recolectar recursos como madera, piedra y metal para construir refugios, armas y herramientas. <br>También pueden cultivar alimentos y cazar animales para sobrevivir. Sin embargo, otros jugadores también están luchando por sobrevivir y pueden ser aliados o enemigos potenciales en este mundo sin ley.</p>
+          <p>El juego también cuenta con elementos de crafting y progresión, lo que permite a los jugadores crear objetos más avanzados a medida que avanzan.<br> Además, Rust tiene una mecánica de muerte permanente, lo que significa que si un jugador muere, pierde todos sus objetos y tiene que comenzar de nuevo desde cero.</p>
+          <p>Rust es un juego desafiante y emocionante que combina elementos de supervivencia, construcción y PvP (jugador contra jugador) en un mundo abierto y hostil. <br>Si estás buscando un juego en el que puedas poner a prueba tu ingenio y habilidades de supervivencia, Rust es una excelente opción.</p>
+        </div>
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/LGcECozNXEw" title="Rust - Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       <div id="guias">
-        <h1>Guías</h1>
-        <p>Aquí en este apartado se podrán visualizar algunas de las guías mas importantes de como progresar en el videojuego.</p>
-        <a href="https://www.rustafied.com/getting-started-in-rust-experimental"><img src="./img/comoempezarguia.png" alt=""></a>
-        <p>Como Empezar En Rust</p>
-        <a href="https://www.rustafied.com/component-system-guide"><img src="./img/componentesguia.png" alt=""></a>
-        <p>Componentes En Rust</p>
-        <a href="https://www.rustafied.com/guns-in-rust-experimental/"><img src="./img/armasguia.png" alt=""></a>
-        <p>Armas En Rust</p>
-        <a href="https://www.rustafied.com/raiding-in-rust"><img src="./img/raidingimage.jpg" alt=""></a>
-        <p>Raideos En Rust</p>
-        <a href="https://www.rustafied.com/improving-fps-in-rust-experimental/"><img src="./img/fpsguia.png" alt=""></a>
-        <p>Aumenta Tus FPS En Rust</p>
-        <a href="https://www.rustafied.com/electricity-in-rust"><img src="./img/electricidadguia.png" alt=""></a>
-        <p>Electricidad En Rust</p>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/EnjPe6WEII8" title="COMO SER EFICIENTE EN RUST | Hjune | Traducido al Español" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/yzVntKU8daA" title="FABRICA INDUSTRIAL DE BALAS | RUST 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="contenido-guia">
+          <h1>Guías</h1>
+          <p>Este apartado de nuestra página web muestra sobre como el videojuego Rust tiene como objetivo proporcionar a los jugadores recursos útiles para mejorar su experiencia en el juego. Las guías incluyen una variedad de temas para ayudar a los jugadores a aprender sobre los diferentes aspectos de Rust.</p>
+            
+              <a href="https://www.rustafied.com/getting-started-in-rust-experimental" target="_blank"><img src="./img/comoempezarguia.png" alt=""></a>
+              <a href="https://www.rustafied.com/getting-started-in-rust-experimental" target="_blank" rel="noopener noreferrer">Como Empezar En Rust</a>
+              <a href="https://www.rustafied.com/component-system-guide" target="_blank"><img src="./img/componentesguia.png" alt=""></a>
+              <a href="https://www.rustafied.com/component-system-guide" target="_blank" rel="noopener noreferrer">Componentes En Rust</a>
+              <a href="https://www.rustafied.com/guns-in-rust-experimental/" target="_blank"><img src="./img/armasguia.png" alt=""></a>
+              <a href="https://www.rustafied.com/guns-in-rust-experimental/" target="_blank" rel="noopener noreferrer">Armas En Rust</a>
+            
+              
+              
+              
+          
+          
+          <a href="https://www.rustafied.com/raiding-in-rust" target="_blank"><img src="./img/raidingimage.jpg" alt=""></a>
+          <a href="https://www.rustafied.com/raiding-in-rust" target="_blank" rel="noopener noreferrer">Raideos En Rust</a>
+          <a href="https://www.rustafied.com/improving-fps-in-rust-experimental/" target="_blank"><img src="./img/fpsguia.png" alt=""></a>
+          <a href="https://www.rustafied.com/improving-fps-in-rust-experimental/" target="_blank" rel="noopener noreferrer">Aumenta Tus FPS En Rust</a>
+          <a href="https://www.rustafied.com/electricity-in-rust" target="_blank"><img src="./img/electricidadguia.png" alt=""></a>
+          <a href="https://www.rustafied.com/electricity-in-rust" target="_blank" rel="noopener noreferrer">Electricidad En Rust</a>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/EnjPe6WEII8" title="COMO SER EFICIENTE EN RUST | Hjune | Traducido al Español" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/yzVntKU8daA" title="FABRICA INDUSTRIAL DE BALAS | RUST 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       </div>
 
-      <div>
+      <div id="contacto">
         <h1>Contacto</h1>
         <form action="send-email.php" method="POST">
           <label for="name">Nombre:</label>
@@ -65,7 +88,7 @@
         </form>
       </div>
 
-      <div>
+      <div id="comprar">
           <h1>Comprar</h1>
           <a href="https://store.steampowered.com/agecheck/app/252490/" target="_blank"><button>Comprar Rust en Steam</button></a>
       </div>
