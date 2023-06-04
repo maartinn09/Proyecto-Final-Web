@@ -1,8 +1,8 @@
 // Array
 const imagenes = [
-    "../img/imagencarru1.jpg",
-    "../img/imagencarru2.jpg",
-    "../img/imagencarru3.jpg"
+    "./img/imagencarru1.jpg",
+    "./img/imagencarru2.jpg",
+    "./img/imagencarru3.jpg"
   ];
   
   // Obtener elementos
