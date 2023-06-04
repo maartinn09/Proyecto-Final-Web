@@ -1,9 +1,9 @@
 // Array
 const imagenes = [
-    "./img/imagencarru1.jpg",
-    "./img/imagencarru2.jpg",
-    "./img/imagencarru3.jpg"
-  ];
+  "./Proyecto-Final-Web/img/imagencarru1.jpg",
+  "./Proyecto-Final-Web/img/imagencarru2.jpg",
+  "./Proyecto-Final-Web/img/imagencarru3.jpg"
+];
   
   // Obtener elementos
   const imagenCarrusel = document.getElementById("imagen-carrusel");
