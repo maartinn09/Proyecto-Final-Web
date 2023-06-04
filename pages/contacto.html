@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="container-icono">
+        <img src="../img/rusticono.svg" alt="">
+      </div>
+      <div class="container-nav">
+        <nav>
+          <a href="../index.html">Inicio</a>
+          <a href="../pages/guias.html">Guías</a>
+          <a href="../pages/contacto.html">Contacto</a>
+          <a href="../pages/comprar.html">Comprar</a>
+        </nav>
+      </div>
+    </div>
+    <div class="video-container">
+      <video src="../videos/rustvideo.mp4" autoplay muted loop></video>
+    </div>
+  </header>
+
+    <main>
+      <div class="container-inicio">
+        <h1>Contacto</h1>
+        <div>
+          <p>¿Tienes alguna pregunta, comentario o sugerencia sobre Rust? ¡Nos encantaría saber de ti! Nuestro equipo de expertos está aquí para ayudarte en lo que necesites. Ya sea que quieras reportar un error, compartir una idea genial o simplemente obtener más información sobre el juego, no dudes en contactarnos.</p>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="form-container">
+          <h2>Formulario de contacto</h2>
+          <form method="POST">
+            <label for="name">Nombre:</label>
+            <span id="name-error" class="error-message"></span>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <span id="email-error" class="error-message"></span>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <span id="message-error" class="error-message"></span>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" onclick="return validarFormulario()">Enviar</button>
+            <div id="datos-container" style="display: none;"></div>
+          </form>                                                                                  
+        </div>
+        <div class="image-box">
+          <img src="../img/contactoimagen.jpg" alt="">
+        </div>
+      </div>            
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <img src="../img/rust-logo-footer.svg" alt="Rust Logo" class="rust-logo">
+        <img src="../img/cruz.svg" alt="Cross Icon" class="cruz">
+        <img src="../img/facepunchlogo.svg" alt="Facepunch Studios Logo" class="facepunch-logo">
+      </div>
+      <div class="footer-container">
+        <span>© 2023 Facepunch Studios. All rights reserved.</span>
+      </div>
+    </footer>
+    
+    <script src="../js/formulario.js" ></script>
+</body>
+</html>

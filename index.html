@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afd307b449.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -18,92 +19,52 @@
         </div>
         <div class="container-nav">
           <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#guias">Guías</a>
-            <a href="#contacto">Contacto</a>
-            <a href="#comprar">Comprar</a>
+            <a href="./index.html">Inicio</a>
+            <a href="./pages/guias.html">Guías</a>
+            <a href="./pages/contacto.html">Contacto</a>
+            <a href="./pages/comprar.html">Comprar</a>
           </nav>
         </div>
       </div>
+      <div class="video-container">
+        <video src="./videos/rustvideo.mp4" autoplay muted loop></video>
+        <div class="imagen-logo">
+          <img src="./img/rust-logo-grande.svg" alt="">
+        </div>
+      </div>
     </header>
-    <div>
-      <video src="./videos/rustvideo.mp4" autoplay muted loop></video>
-    </div>
-    <div class="imagen-logo">
-      <img src="./img/rust-logo-grande.svg" alt="">
-    </div>
+    
     <main>
-      <div id="inicio">
-        <div class="container-inicio">
-          <h1>Qué es RUST?</h1>
-          <p>Rust es un juego de supervivencia y construcción de mundo abierto desarrollado por Facepunch Studios. <br> En Rust, los jugadores comienzan en un mundo hostil y peligroso con nada más que una piedra y una antorcha, y deben usar su ingenio y habilidades para sobrevivir y prosperar en este entorno implacable.</p>
-          <p>Los jugadores pueden recolectar recursos como madera, piedra y metal para construir refugios, armas y herramientas. <br>También pueden cultivar alimentos y cazar animales para sobrevivir. Sin embargo, otros jugadores también están luchando por sobrevivir y pueden ser aliados o enemigos potenciales en este mundo sin ley.</p>
-          <p>El juego también cuenta con elementos de crafting y progresión, lo que permite a los jugadores crear objetos más avanzados a medida que avanzan.<br> Además, Rust tiene una mecánica de muerte permanente, lo que significa que si un jugador muere, pierde todos sus objetos y tiene que comenzar de nuevo desde cero.</p>
-          <p>Rust es un juego desafiante y emocionante que combina elementos de supervivencia, construcción y PvP (jugador contra jugador) en un mundo abierto y hostil. <br>Si estás buscando un juego en el que puedas poner a prueba tu ingenio y habilidades de supervivencia, Rust es una excelente opción.</p>
+      <div class="container-inicio">
+        <h1>Qué es RUST?</h1>
+        <p>Rust es un juego de supervivencia y construcción en un mundo abierto. <br> Comienzas sin nada más que una piedra y una antorcha, y debes usar tu ingenio para sobrevivir en un entorno peligroso. <br> Recolecta recursos, construye refugios y armas, y caza animales para alimentarte. <br> Enfrenta a otros jugadores, que pueden ser aliados o enemigos, mientras progresas y creas objetos más avanzados. <br> Pero ten cuidado, ya que la muerte en Rust significa perder todo y empezar de nuevo. <br> Sumérgete en este desafiante y emocionante juego de supervivencia y PvP en un mundo hostil.</p>
+      </div>
+      <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/LGcECozNXEw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="container-desc">
+        <h2>“RUST IS ONE OF THE CRUELEST GAMES ON STEAM, <br> AND THAT'S WHAT MAKES IT SO COMPELLING.”</h2>
+      </div>
+      <div class="contenedor-carrusel">
+        <div class="carrusel">
+          <img id="imagen-carrusel" src="" alt="Imagen">
+          <button id="btn-anterior"><i class="fa-solid fa-angle-left"></i></button>
+          <button id="btn-siguiente"><i class="fa-solid fa-angle-right"></i></button>
         </div>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/LGcECozNXEw" title="Rust - Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-
-      <div id="guias">
-        <div class="contenido-guia">
-          <h1>Guías</h1>
-          <p>Este apartado de nuestra página web muestra sobre como el videojuego Rust tiene como objetivo proporcionar a los jugadores recursos útiles para mejorar su experiencia en el juego. Las guías incluyen una variedad de temas para ayudar a los jugadores a aprender sobre los diferentes aspectos de Rust.</p>
-            
-              <a href="https://www.rustafied.com/getting-started-in-rust-experimental" target="_blank"><img src="./img/comoempezarguia.png" alt=""></a>
-              <a href="https://www.rustafied.com/getting-started-in-rust-experimental" target="_blank" rel="noopener noreferrer">Como Empezar En Rust</a>
-              <a href="https://www.rustafied.com/component-system-guide" target="_blank"><img src="./img/componentesguia.png" alt=""></a>
-              <a href="https://www.rustafied.com/component-system-guide" target="_blank" rel="noopener noreferrer">Componentes En Rust</a>
-              <a href="https://www.rustafied.com/guns-in-rust-experimental/" target="_blank"><img src="./img/armasguia.png" alt=""></a>
-              <a href="https://www.rustafied.com/guns-in-rust-experimental/" target="_blank" rel="noopener noreferrer">Armas En Rust</a>
-            
-              
-              
-              
-          
-          
-          <a href="https://www.rustafied.com/raiding-in-rust" target="_blank"><img src="./img/raidingimage.jpg" alt=""></a>
-          <a href="https://www.rustafied.com/raiding-in-rust" target="_blank" rel="noopener noreferrer">Raideos En Rust</a>
-          <a href="https://www.rustafied.com/improving-fps-in-rust-experimental/" target="_blank"><img src="./img/fpsguia.png" alt=""></a>
-          <a href="https://www.rustafied.com/improving-fps-in-rust-experimental/" target="_blank" rel="noopener noreferrer">Aumenta Tus FPS En Rust</a>
-          <a href="https://www.rustafied.com/electricity-in-rust" target="_blank"><img src="./img/electricidadguia.png" alt=""></a>
-          <a href="https://www.rustafied.com/electricity-in-rust" target="_blank" rel="noopener noreferrer">Electricidad En Rust</a>
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/EnjPe6WEII8" title="COMO SER EFICIENTE EN RUST | Hjune | Traducido al Español" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/yzVntKU8daA" title="FABRICA INDUSTRIAL DE BALAS | RUST 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div id="contacto">
-        <h1>Contacto</h1>
-        <form action="send-email.php" method="POST">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" required>
-          
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" required>
-          
-          <label for="message">Mensaje:</label>
-          <textarea id="message" name="message" required></textarea>
-          
-          <button type="submit">Enviar</button>
-        </form>
-      </div>
-
-      <div id="comprar">
-          <h1>Comprar</h1>
-          <a href="https://store.steampowered.com/agecheck/app/252490/" target="_blank"><button>Comprar Rust en Steam</button></a>
-      </div>
+      </div>                
     </main>
-
+    
     <footer>
-      <div>
-        <img src="./img/rust-logo-footer.svg" alt="">
-        <img src="./img/cruz.svg" alt="">
-        <img src="./img/facepunchlogo.svg" alt="">
+      <div class="footer-container">
+        <img src="./img/rust-logo-footer.svg" alt="Rust Logo" class="rust-logo">
+        <img src="./img/cruz.svg" alt="Cross Icon" class="cruz">
+        <img src="./img/facepunchlogo.svg" alt="Facepunch Studios Logo" class="facepunch-logo">
       </div>
-      <div>
+      <div class="footer-container">
         <span>© 2023 Facepunch Studios. All rights reserved.</span>
       </div>
     </footer>
 
+    <script src="./js/carrusel.js"></script>
 </body>
 </html>
